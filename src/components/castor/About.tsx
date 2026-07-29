@@ -1,4 +1,4 @@
-import logoC from "@/assets/logo_c_t.png.asset.json";
+import logoMono from "@/assets/logo_mono_t.png.asset.json";
 import { Reveal } from "./Reveal";
 
 const values = [
