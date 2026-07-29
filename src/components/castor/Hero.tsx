@@ -1,4 +1,4 @@
-import logoMono from "@/assets/logo_mono_t.png.asset.json";
+const logoMono = "/logo_mono.png";
 import { Reveal } from "./Reveal";
 
 export function Hero() {
@@ -73,7 +73,7 @@ export function Hero() {
             <div className="absolute inset-8 rounded-full border border-primary/10" />
             <div className="absolute inset-16 rounded-full bg-card shadow-soft" />
             <img
-              src={logoMono.url}
+              src={logoMono}
               alt="Monograma Castor"
               className="animate-float absolute inset-0 m-auto w-[52%]"
             />
