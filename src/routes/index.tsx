@@ -8,9 +8,9 @@ import { Results } from "@/components/castor/Results";
 import { Contact } from "@/components/castor/Contact";
 import { Footer } from "@/components/castor/Footer";
 
-const title = "Castor | Marketing e Vendas com estratégia e estrutura";
+const title = "Agência Castor | Engenharia de Marketing e Crescimento Estratégico";
 const description =
-  "Agência de marketing e vendas que constrói operações previsíveis: diagnóstico, estratégia, mídia de performance e estrutura comercial.";
+  "Aumente a previsibilidade das suas vendas com a Agência Castor. Estratégia, tráfego, influência e arquitetura de crescimento orientada a ROI.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
