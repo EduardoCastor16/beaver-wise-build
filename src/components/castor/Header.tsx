@@ -5,7 +5,7 @@ const links = [
   { href: "#metodo", label: "Método" },
   { href: "#servicos", label: "Serviços" },
   { href: "#resultados", label: "Resultados" },
-  { href: "#sobre", label: "Sobre" },
+  { href: "#sobre", label: "Liderança" },
 ];
 
 export function Header() {
