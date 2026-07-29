@@ -53,6 +53,20 @@ export function Method() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={120}>
+          <div className="mt-14">
+            <a
+              href="#contato"
+              className="group inline-flex items-center gap-3 rounded-full bg-foreground px-8 py-4 text-sm font-semibold text-background transition-all duration-300 hover:bg-primary hover:shadow-lift"
+            >
+              Quero Estruturar Minha Operação
+              <svg width="18" height="18" viewBox="0 0 20 20" fill="none" className="transition-transform group-hover:translate-x-1">
+                <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </Reveal>
       </div>
     </section>
   );
