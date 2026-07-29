@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import logoFull from "@/assets/logo_full_t.png.asset.json";
+
+const logoFull = "/logo_full.png";
 
 const links = [
   { href: "#metodo", label: "Método" },
@@ -29,7 +29,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-10">
         <a href="#topo" aria-label="Castor Marketing e Vendas">
           <img
-            src={logoFull.url}
+            src={logoFull}
             alt="Castor Marketing e Vendas"
             className={`w-auto transition-all duration-500 ${scrolled ? "h-9" : "h-11"}`}
           />
