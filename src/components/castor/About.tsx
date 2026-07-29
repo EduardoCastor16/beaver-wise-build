@@ -1,4 +1,4 @@
-import logoMono from "@/assets/logo_mono_t.png.asset.json";
+import eduCrowd from "@/assets/edu-crowd.png.asset.json";
 import { Reveal } from "./Reveal";
 
 const values = [
@@ -14,18 +14,18 @@ export function About() {
       <div className="mx-auto grid max-w-7xl items-center gap-16 px-6 lg:grid-cols-2 lg:px-10">
         <Reveal>
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] border border-border bg-secondary">
-            <div className="weave-texture absolute inset-0 opacity-[0.07]" />
             <img
-              src={logoMono.url}
-              alt="Monograma Castor: letra C formada pela cabeça e pela cauda do castor"
-              className="absolute inset-0 m-auto w-[58%]"
+              src={eduCrowd.url}
+              alt="Retrato artístico do fundador da Castor em meio a uma multidão em movimento, simbolizando foco estratégico no meio do caos"
+              className="h-full w-full object-cover"
             />
-            <div className="absolute bottom-8 left-8 right-8 rounded-2xl border border-border bg-background/80 p-6 backdrop-blur">
+            <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
+            <div className="absolute bottom-8 left-8 right-8 rounded-2xl border border-border bg-background/85 p-6 backdrop-blur">
               <p className="font-display text-lg font-bold leading-snug">
-                Letra C, cabeça e cauda do castor.
+                Clareza no meio do movimento.
               </p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Um símbolo sobre construir com método — a base de tudo que entregamos.
+                Estratégia é saber ficar parado na direção certa enquanto o mercado acelera.
               </p>
             </div>
           </div>
