@@ -3,9 +3,9 @@ import { Reveal } from "./Reveal";
 
 const values = [
   { t: "Estratégico", d: "Cada ação existe dentro de um plano maior." },
-  { t: "Inteligente", d: "Dados guiam a decisão, não a opinião mais alta da sala." },
+  { t: "Analítico", d: "Dados guiam a decisão, não a opinião mais alta da sala." },
   { t: "Confiável", d: "Transparência total sobre números, prazos e limites." },
-  { t: "Minimalista", d: "Poucas frentes, bem executadas, com profundidade." },
+  { t: "Previsível", d: "Estruturas de venda que sustentam escala com ROI medido." },
 ];
 
 export function About() {
@@ -22,26 +22,24 @@ export function About() {
             <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
             <div className="absolute bottom-8 left-8 right-8 rounded-2xl border border-border bg-background/85 p-6 backdrop-blur">
               <p className="font-display text-lg font-bold leading-snug">
-                Clareza no meio do movimento.
+                "Estratégia sem execução é apenas intenção. Nós construímos o que funciona."
               </p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Estratégia é saber ficar parado na direção certa enquanto o mercado acelera.
+                Eduardo — CEO, Agência Castor
               </p>
             </div>
           </div>
         </Reveal>
 
         <Reveal delay={120}>
-          <span className="eyebrow">Sobre a Castor</span>
+          <span className="eyebrow">Liderança estratégica</span>
           <h2 className="mt-5 text-4xl font-bold leading-tight lg:text-5xl">
-            Leveza na forma.
-            <br />
-            <span className="text-primary">Engenharia</span> no fundo.
+            Liderança <span className="text-primary">Estratégica</span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Castores são os arquitetos silenciosos da natureza: mudam o curso da água com paciência,
-            leitura de terreno e construção precisa. Trabalhamos igual — sem ruído, sem promessa
-            inflada, com estrutura que permanece de pé depois que a campanha acaba.
+            Na Castor, nossa filosofia é guiada pela engenharia de resultados: analisar cenários com
+            clareza, recalcular rotas com agilidade e erguer estruturas inexpugnáveis de vendas. Não
+            vendemos teorias; entregamos previsibilidade de crescimento.
           </p>
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2">

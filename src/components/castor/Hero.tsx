@@ -12,25 +12,24 @@ export function Hero() {
           <div className="animate-rise inline-flex items-center gap-3 rounded-full border border-border bg-card px-4 py-2">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             <span className="text-xs font-semibold uppercase tracking-[0.22em] text-primary">
-              Marketing e Vendas
+              Engenharia de Marketing B2B
             </span>
           </div>
 
           <h1
-            className="animate-rise mt-8 text-5xl font-bold leading-[1.02] sm:text-6xl lg:text-7xl"
+            className="animate-rise mt-8 text-4xl font-bold leading-[1.06] tracking-tight sm:text-5xl lg:text-[3.4rem]"
             style={{ animationDelay: "80ms" }}
           >
-            Construímos crescimento
-            <br />
-            <span className="text-primary">com engenharia</span> e calma.
+            Engenharia Estratégica de Marketing para Negócios que Buscam{" "}
+            <span className="text-primary">Domínio de Mercado</span>
           </h1>
 
           <p
             className="animate-rise mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground"
             style={{ animationDelay: "160ms" }}
           >
-            Como o castor: estratégia antes do esforço, estrutura antes do volume. Marketing e
-            vendas desenhados peça por peça para o seu negócio crescer sem ruído.
+            Construímos ecossistemas sólidos de vendas, adaptamos rotas com agilidade analítica e
+            transformamos tráfego em crescimento previsível para o seu negócio.
           </p>
 
           <div className="animate-rise mt-10 flex flex-wrap gap-4" style={{ animationDelay: "240ms" }}>
@@ -38,7 +37,7 @@ export function Hero() {
               href="#contato"
               className="group inline-flex items-center gap-3 rounded-full bg-foreground px-8 py-4 text-sm font-semibold text-background transition-all duration-300 hover:bg-primary hover:shadow-lift"
             >
-              Quero um diagnóstico
+              Construir Minha Estratégia de Crescimento
               <svg width="18" height="18" viewBox="0 0 20 20" fill="none" className="transition-transform group-hover:translate-x-1">
                 <path d="M4 10h12M12 6l4 4-4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
