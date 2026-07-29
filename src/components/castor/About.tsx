@@ -3,9 +3,9 @@ import { Reveal } from "./Reveal";
 
 const values = [
   { t: "Estratégico", d: "Cada ação existe dentro de um plano maior." },
-  { t: "Inteligente", d: "Dados guiam a decisão, não a opinião mais alta da sala." },
+  { t: "Analítico", d: "Dados guiam a decisão, não a opinião mais alta da sala." },
   { t: "Confiável", d: "Transparência total sobre números, prazos e limites." },
-  { t: "Minimalista", d: "Poucas frentes, bem executadas, com profundidade." },
+  { t: "Previsível", d: "Estruturas de venda que sustentam escala com ROI medido." },
 ];
 
 export function About() {
