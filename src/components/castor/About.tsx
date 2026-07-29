@@ -1,4 +1,4 @@
-import logoC from "@/assets/logo_c_t.png.asset.json";
+import logoMono from "@/assets/logo_mono_t.png.asset.json";
 import { Reveal } from "./Reveal";
 
 const values = [
@@ -16,9 +16,9 @@ export function About() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] border border-border bg-secondary">
             <div className="weave-texture absolute inset-0 opacity-[0.07]" />
             <img
-              src={logoC.url}
-              alt="Monograma simplificado Castor"
-              className="absolute inset-0 m-auto w-[45%]"
+              src={logoMono.url}
+              alt="Monograma Castor: letra C formada pela cabeça e pela cauda do castor"
+              className="absolute inset-0 m-auto w-[58%]"
             />
             <div className="absolute bottom-8 left-8 right-8 rounded-2xl border border-border bg-background/80 p-6 backdrop-blur">
               <p className="font-display text-lg font-bold leading-snug">
