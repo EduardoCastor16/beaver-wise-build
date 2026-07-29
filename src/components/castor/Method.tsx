@@ -3,23 +3,23 @@ import { Reveal } from "./Reveal";
 const steps = [
   {
     n: "01",
-    t: "Diagnóstico",
-    d: "Leitura completa do cenário: oferta, canais, funil, time e números. Nada começa sem entender o terreno.",
+    t: "Diagnóstico do Terreno",
+    d: "Mapeamento de gargalos e oportunidades no seu funil atual.",
   },
   {
     n: "02",
-    t: "Projeto",
-    d: "Desenhamos a arquitetura de aquisição e a rotina comercial, com metas, responsáveis e prazos claros.",
+    t: "Engenharia de Ecossistema",
+    d: "Criação de campanhas de tráfego, influência e conversão integradas.",
   },
   {
     n: "03",
-    t: "Construção",
-    d: "Campanhas, conteúdo, funis e CRM implementados com padrão de execução — sem improviso.",
+    t: "Adaptação Dinâmica de Rota",
+    d: "Análise constante de dados para pivotar estratégias no momento certo.",
   },
   {
     n: "04",
-    t: "Manutenção",
-    d: "Ritual semanal de leitura de dados e ajuste fino. O que funciona, escala. O que não, sai.",
+    t: "Consolidação e Escala",
+    d: "Maximização do ROI e escala previsível das vendas.",
   },
 ];
 
@@ -30,11 +30,12 @@ export function Method() {
         <Reveal className="max-w-2xl">
           <span className="eyebrow">O método</span>
           <h2 className="mt-5 text-4xl font-bold leading-tight lg:text-5xl">
-            Quatro etapas para <span className="text-primary">represar</span> o crescimento.
+            O Método Castor: Como <span className="text-primary">Arquitetamos</span> o Seu
+            Crescimento
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
-            Um castor não empilha galhos: ele calcula a correnteza. É assim que tratamos cada
-            operação que entra na Castor.
+            Assim como o castor molda o ambiente com precisão e inteligência, nós construímos a
+            estrutura necessária para o seu negócio dominar o mercado.
           </p>
         </Reveal>
 
